@@ -1,0 +1,214 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+  <title> ABOUT </title>
+  <meta charset="utf-8" name="website" content="width=device-width, initial-scale=1">
+  <style>
+
+  @import url("navigation.css");
+
+  html{
+    height:100%;
+
+    background:linear-gradient(160deg,rgba(0,219,255,0.62) 0%, rgba(115,23,230,0.78)80% ) fixed;
+  }
+
+  .pic{
+
+    margin-left: -8px;
+    position: fixed;
+    bottom: 0;
+    /* margin-top:21px; */
+    height: auto;
+    width: 40%;
+    z-index: -1;
+
+}
+
+.header{
+position: absolute;
+top: 130px;
+left: 50.5%;
+right: auto;
+width:650px;
+height: 120px;
+background-color: white;
+box-shadow: 12px 12px #1c7ea5 ;
+line-height: 120px;
+text-align: center;
+font-size: 3.2em;
+font-weight:bold;
+font-family: "Calibri";
+color: #1c7ea5;
+animation-timing-function: ease;
+animation-name: timing1;
+animation-duration: 2s;
+}
+
+.intro {
+position: absolute;
+top: 310px;
+left: 40.5%;
+right: auto;
+margin-right: 80px;
+margin-left: 60px;
+font-size: 2em;
+/* font-weight:bold; */
+font-family: "Calibri";
+color: white;
+min-width: 400px;
+line-height: 50px;
+
+}
+
+.skills1{
+  left: 40%;
+  right: auto;
+
+}
+
+.skills2{
+  left: 68.5%;
+  right: auto;
+
+}
+
+div#middle {
+
+  font-family: "Calibri";
+  color:#0211b6;
+  top: 570px;
+  font-size: 1.5em;
+
+
+}
+div#middle > div {
+  float: left;
+  width: 25%;
+  top: 570px;
+  position: absolute;
+  margin-right: 50px;
+  margin-left: 60px;
+  line-height: 40px;
+  /* min-width: 300px; */
+
+}
+@keyframes timing1 {
+  from {left: 25.5%}
+  to {left: 50.5%;}
+}
+
+@media (min-width: 1550px) {
+  .header{
+    left: 50.5%;
+    right: auto;
+    animation-timing-function: ease;
+    animation-name: timing1;
+  	animation-duration: 2s;
+
+  }
+}
+
+
+@keyframes timing {
+  from {left: 50.5%}
+  to {left: 22.5%;}
+}
+
+
+
+@media (max-width: 1360px) {
+
+  .header{
+
+    left: 22.5%;
+    right: auto;
+    animation-timing-function: ease;
+    animation-name: timing;
+  	animation-duration: 2s;
+
+  }
+
+}
+
+@media (max-width: 1622px){
+
+.intro{
+
+  font-size: 1.5em;
+}
+
+}
+
+@media (max-width: 1550px) {
+
+  div#middle {
+    /* top: 620px; */
+    font-size: 1.3em;
+  }
+}
+
+@media (max-width: 1075px) {
+
+  div#middle > div {
+  top: 670px;
+}
+}
+
+
+
+  </style>
+  </head>
+<body>
+<marquee class="under"> This website is currently under construction: Developer Abdullah </marquee>
+    <div class="navbar">
+      <a href="home.html" class="logo" > <img src="pics/logo.png" title="logo" alt="doolyLogo"></a>
+      <div class="navtext">
+        <a href="contact.html"> CONTACT </a>
+        <a href="services.html"> SERVICES</a>
+        <a href="about.html"> ABOUT </a>
+        <a href="home.html"> HOME </a>
+      </div>
+    </div>
+
+<div class="container">
+
+    <div class="header"> I HELP PEOPLE ADVANCE </div>
+
+    <img class="pic" src="pics/apps.png" title="apps" alt="apps">
+
+
+    <div class="intro">
+      Computer Information Technology enthusiast who is
+      passionate about technology with a strong background
+      in customer service and teamwork. Motivated to provide
+      people with IT solutions that improves business and
+      personal success.
+    </div>
+
+
+<div id="middle">
+
+    <div class="skills1">
+      <ul>
+      <li>Customer Service</li>
+      <li>Microsoft Office</li>
+      <li>C++, Java programming languages</li>
+      <li>HTML, CSS, JavaScript, Regular Expressions</li>
+      <li>Linux and Windows system administration</li>
+    </ul>
+    </div>
+
+    <div class="skills2">
+      <ul>
+      <li>AWS, Azure system administration</li>
+      <li>Software engineering fundamentals</li>
+      <li>software design models (UML)</li>
+      <li>Database management systems (MySQL, MS SQL)</li>
+    </ul>
+    </div>
+</div>
+</div>
+
+  </body>
+</html>
